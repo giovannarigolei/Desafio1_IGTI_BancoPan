@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Filtro de Dados</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="app">
+      <div>
+        <h2>Opções</h2>
+       <label for="sortby">Procure por:</label>
+       <select name="sel" id="sortby" style="font-size: 20px;">
+         <option id="op" value="name-asc" selected style="font-size: 20px;">Nome (Ordem Ascendente)</option>
+         <option id="op" value="name-desc" style="font-size: 20px;" >Nome (Ordem Decrescene)</option>
+         <option id="op" value="salary-asc" style="font-size: 20px;">Salário (Ordem Ascendente)</option>
+         <option id="op" value="salary-desc" style="font-size: 20px;">Salário (Ordem Decrescene)</option>
+       </select>
+    <fieldset id="rolesfs">
+     <legend class="ch">Filtrar por:</legend>
+    </fieldset>
+    </div>
+      <div>
+        <h2 style="
+             border: 5px solid rgb(67, 189, 211);
+            background-color: black;
+            color: white;
+            padding: 50px;
+          "> Colaboradores <span id="counter"></span></h2>
+        <table>
+          <tbody>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Cargo</th>
+              <th>Salário</th>
+            </tr>
+          </thead>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
