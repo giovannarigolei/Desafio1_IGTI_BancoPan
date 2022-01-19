@@ -1,0 +1,69 @@
+body {
+  font-family: Arial;
+  font-size: 20px;
+  background: rgb(223, 236, 243)
+}
+
+.app {
+  display: flex;
+  padding: 50px, 50px;
+  
+}
+
+.app > div {
+  padding: 8px;
+  margin: 30px;
+
+}
+
+fieldset > label {
+  display: block;
+  border-top: 2.55px solid rgb(67, 189, 211);
+  border-left: 5px solid rgb(67, 189, 211);
+  border-right: 5px solid rgb(67, 189, 211);
+  border-bottom: 2.5px solid rgb(67, 189, 211);
+  background: black;
+  color: rgb(67, 189, 211);
+  box-shadow: rgba(0,0,0,0.05) 0px 1px 2px 0px, rgba(0,0,0,0.05) 0px 1px 4px 0px, rgba(0,0,0,0.05) 0px 2px 8px 0px;
+}
+fieldset > label:hover{
+  color: white;
+}
+fieldset:first-child{
+  background-color: darkgreen;
+}
+
+table  {
+  border-collapse: collapse;
+  background-color: black;
+  color: white;
+  border: 5px solid rgb(67, 189, 211);
+  padding: 50px, 50px;
+ 
+}
+thead {
+  border: 5px solid rgb(67, 189, 211);
+  padding: 50px, 50 px;
+
+}
+
+tbody{
+  padding: 50px, 50px;
+}
+input:checked{
+  appearance: none;
+  padding: 6px;
+  background: rgb(67, 189, 211);
+  border-radius: 1px;
+  box-shadow: rgba(241, 236, 236, 0.836) 0px 1px 2px 0px, rgba(236, 230, 230, 0.822) 0px 1px 4px 0px, rgba(243, 237, 237, 0.849) 2px 2px 12px 2px;
+  
+}
+input{
+  appearance: none;
+  padding: 6px;
+  background: rgb(255, 255, 255);
+}
+#rolesfs {
+  border-radius: 10px;
+  
+}
