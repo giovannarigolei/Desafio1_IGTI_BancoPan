@@ -1,4 +1,4 @@
-# Deafio Módulo 1 - Bootcamp IGTI/BancoPan
+# Desafio Módulo 1 - Bootcamp IGTI/BancoPan
 
 Aplicação criando utilizando: 
 *HTML, CSS, JavaScript e um BackEnd fictício em JSON*
