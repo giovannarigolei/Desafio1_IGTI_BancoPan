@@ -1,6 +1,6 @@
 # Desafio Módulo 1 - Bootcamp IGTI/BancoPan
 
-Aplicação criadA utilizando: 
+Aplicação criada utilizando: 
 *HTML, CSS, JavaScript e um BackEnd fictício em JSON*
 
 A mesma tem a finalidade de filtrar os dados dessa base em JSON conforme os seletores escolhidos pelo usuário.
